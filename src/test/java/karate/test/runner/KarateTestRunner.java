@@ -8,6 +8,6 @@ public class KarateTestRunner {
 	public Karate runTest() {
 		
 		return Karate.run(".\\features")
-				.tags("End2End");
+				.tags("smoke");
 }
 }
